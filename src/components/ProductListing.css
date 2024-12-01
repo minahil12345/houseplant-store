@@ -1,0 +1,56 @@
+/* Basic styling for the product items */
+.product-list {
+    padding: 20px;
+    background: url('../assets/background.jpg') no-repeat center center fixed; 
+}
+
+.plant-item {
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plant-item img {
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .plant-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .plant-item p {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .plant-item button {
+    background-color: #FFB400;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+  }
+  
+  
+  .plant-item button:disabled {
+    background-color: grey;  /* Grey color when disabled */
+    cursor: not-allowed;     /* Change cursor to indicate disabled state */
+    opacity: 0.7;            /* Slight transparency for better visual cue */
+  }
+  .deals-heading {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #FFB400;
+  }
+  
